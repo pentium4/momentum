@@ -1,0 +1,17 @@
+#weather {
+    position: absolute;
+    font-style: italic;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+#weather div:first-child {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+#weather div:last-child {
+    font-size: .8125rem;
+    text-align: right;
+}

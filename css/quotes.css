@@ -1,0 +1,17 @@
+#quote {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in;
+    font-size: 1.125rem;
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 100%;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+#quote:hover {
+    opacity: 1;
+}

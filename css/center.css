@@ -1,0 +1,39 @@
+.hidden {
+    display: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center #login-form input {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.center #login-form input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.center #login-form input:focus,
+.center #login-form input:active {
+    outline: none;
+}
+
+.center #greeting {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.center .name {
+    margin-bottom: 30px;
+}
